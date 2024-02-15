@@ -7,8 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-<<<<<<< HEAD
-=======
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -34,7 +32,8 @@ return array(
     'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
     'DeepCopy\\TypeFilter\\TypeFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
     'DeepCopy\\TypeMatcher\\TypeMatcher' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
->>>>>>> 36c02f6267493c404081d1e669bfd5591fabb9f6
+    'MyApp\\Logger\\Logger' => $baseDir . '/App/Logger/Logger.php',
+    'MyApp\\User\\Users' => $baseDir . '/App/User/Users.php',
     'PHPUnit\\Event\\Application\\Finished' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
     'PHPUnit\\Event\\Application\\FinishedSubscriber' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
     'PHPUnit\\Event\\Application\\Started' => $vendorDir . '/phpunit/phpunit/src/Event/Events/Application/Started.php',
@@ -988,8 +987,6 @@ return array(
     'PharIo\\Version\\VersionConstraintParser' => $vendorDir . '/phar-io/version/src/VersionConstraintParser.php',
     'PharIo\\Version\\VersionConstraintValue' => $vendorDir . '/phar-io/version/src/VersionConstraintValue.php',
     'PharIo\\Version\\VersionNumber' => $vendorDir . '/phar-io/version/src/VersionNumber.php',
-<<<<<<< HEAD
-=======
     'PhpParser\\Builder' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Builder.php',
     'PhpParser\\BuilderFactory' => $vendorDir . '/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
     'PhpParser\\BuilderHelpers' => $vendorDir . '/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',
@@ -1240,7 +1237,6 @@ return array(
     'PhpParser\\PrettyPrinterAbstract' => $vendorDir . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
     'PhpParser\\PrettyPrinter\\Standard' => $vendorDir . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
     'PhpParser\\Token' => $vendorDir . '/nikic/php-parser/lib/PhpParser/Token.php',
->>>>>>> 36c02f6267493c404081d1e669bfd5591fabb9f6
     'SebastianBergmann\\CliParser\\AmbiguousOptionException' => $vendorDir . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
     'SebastianBergmann\\CliParser\\Exception' => $vendorDir . '/sebastian/cli-parser/src/exceptions/Exception.php',
     'SebastianBergmann\\CliParser\\OptionDoesNotAllowArgumentException' => $vendorDir . '/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php',
