@@ -1,13 +1,8 @@
 <?php
 declare(strict_types=1);
-
-require_once __DIR__ . '/vendor/autoload.php';
-
-
-use App\User\Users;
-use App\Logger\Logger;
-
-
+//require_once __DIR__ . '/vendor/autoload.php';
+require_once realpath("vendor/autoload.php");
+//use App\Logger\Logger;
 if(isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
