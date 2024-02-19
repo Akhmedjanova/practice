@@ -33,7 +33,7 @@ class ComposerStaticInitfbee484fbcb98ba45566f17e8eb69e9b
         ),
         'MyApp\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/App',
+            0 => __DIR__ . '/../..' . '/practices/App',
         ),
         'DeepCopy\\' => 
         array (

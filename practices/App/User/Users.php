@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MyApp\User;
+namespace App\User;
 class Users
 {
     private $users;

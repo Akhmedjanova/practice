@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MyApp\Logger;
+namespace App\Logger;
 //require_once 'login.php';
 
 class Logger
